@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+header nav{
+    background-color: rgb(213, 213, 213);
+    overflow: hidden;
+}
+header .img img{
+    display: block;
+    margin: auto;
+}
+.mid{
+    width: 87%;
+    margin: auto;
+    overflow: hidden;
+}
+header nav .mid ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+header nav .mid ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+header nav .mid ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    display: block;
+}
+header nav .mid ul .active, header nav .mid ul li a:hover{
+    color: rgb(255, 132, 0);
+    text-decoration: underline;
+}
+ 
+/* Header menu */
+
+header menu .img{
+    display: inline-block;
+    overflow: hidden;
+}
+header menu .img img{
+    height: 100%;
+    width: 100%;
+}
+header menu .img button{
+    margin-left: 40px;
+    border: none;
+}
+header menu .img button input{
+    width: 500px;
+    padding: 14px 13px;
+    border:none;
+    background-color: rgb(218, 218, 218);
+}
+header menu .img button i{
+    font-size: 18px;
+    padding: 14px;
+    color: #fff;
+    border-radius: 2px;
+    background-color: rgb(255, 111, 0);
+}
+header menu .img  >i{
+    font-size: 25px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+header menu .img:last-child img{
+    float: right;
+    width: 200px;
+}
+
+/* Mega menu start from here */
+
+.menu {
+    margin-top: 10px;
+    float: left;
+}
+.menu ul{
+    margin:0 ;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #dedada;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    display: block;
+    padding: 5px 10px;
+    display: block;
+}
+.menu ul li a:hover{
+    color: rgb(0, 145, 255);
+    background-color: rgb(218, 218, 218);
+}
+
+/* Owl carousel */
+
+.owl-carousel .item{
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+}
+.owl-carousel .item img{
+    height: 100%;
+    width: 100%;
+}
+
+/*  option of service*/
+
+.otpgroup{
+    text-align: center;
+}
+.optgroup .opt{
+    width: 18%;
+    display: inline-block;
+    margin: 0 5px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.optgroup .opt img{
+    width: 30px;
+    margin-right: 5px;
+}
+.optgroup .opt span{
+    font-size: 20px;
+}
+
+/* Flash sell */
+
+.flash-sell{
+    overflow: hidden;
+}
+ h1{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.flash-sell .top {
+    background-color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+.flash-sell .top a{
+    float: left;
+    color: rgb(255, 123, 0);
+    margin-right: 60px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.flash-sell .top span{
+    float: left;
+    font-size: 15px;
+    margin-right: 50px;
+}
+.flash-sell .top .time{
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    margin: 0 5px;
+    background-color: rgb(255, 102, 0);
+}
+.flash-sell .top a:last-child{
+    float: right;
+    margin-right: 15px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    border: 1px solid orange;
+}
+.flash-sell .bottom{
+    overflow: hidden;
+    background-color: #fff;
+}
+.flash-sell .bottom .item{
+    width: 16.3%;
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.flash-sell .bottom a{
+    text-decoration: none;
+}
+.flash-sell .bottom a img{
+    width: 180px;
+    height: 190px;
+    display: block;
+}
+.flash-sell .bottom article{
+    color: black;
+    font-size: 15px;
+    width: 100%;
+}
+.flash-sell .bottom span{
+    color: rgb(255, 102, 0);
+}
+.flash-sell .bottom del{
+    color: #686868;
+}
+.flash-sell .bottom p{
+    font-size: 12px;
+    color: #000;
+}
+
+/* Catagory */
+table{
+    background-color: #fff;
+    text-align: center;
+}
+tr,td{
+    border: 3px solid rgb(237, 237, 237);
+    border-collapse: collapse;
+}
+.catagory table td{
+    padding: 20px;
+}
+.catagory table td img {
+    width: 125px;
+    height: 120px;
+}
+.catagory table td  a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Collection start from here */
+
+.collection table tr,.collection table td{
+    border: 1px solid rgb(211, 211, 211);
+    border-collapse: collapse;
+}
+.collection>h1{
+    width: 400px;
+    float: left;
+}
+.collection>a{
+    float: right;
+    text-decoration: none;
+    color: blue;
+    margin-top: 30px;
+}
+.collection table{
+    width: 100%;
+}
+.collection table img{
+    width: 70px;
+    margin: 10px 0;
+}
+.collection table p{
+    margin: 0;
+    font-size: 15px;
+}
+.collection table span{
+    display: block;
+    font-size: 12px;
+}
+
+/* Just for you start from here */
+
+.just tr, .just td{
+    border: 7px solid rgb(237, 237, 237);
+}
+.just td {
+    
+}
+.just td img{
+    width: 150px;
+}
+.just tr{
+    width: 100%;
+}
+.just td a{
+    text-decoration: none;
+    color: black;
+}
+.just td p{
+    margin: 1px;
+    font-size: 15px;
+}
+.just td span{
+    text-align: left;
+    color: rgb(255, 111, 0);
+}
+.just td article{
+    color: rgb(111, 111, 111);
+    font-size: 12px;
+}
+
+/* More button */
+.mid>a{
+    display: block;
+    width: 300px;
+    padding: 5px 10px;
+    margin: 20px auto 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border:1px solid rgb(0, 102, 255);
+}
+
+/* footer section start from here */
+
+footer{
+    background-color: #2e2e54;
+    padding: 10px 0;
+}
+footer .left{
+    margin-right: 100px;
+    float: left;
+    width: 17%;
+}
+footer h2{
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0 0;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    display: block;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+footer .center {
+    width: 20%;
+    float: left;
+    margin: 40px 50px 0 0;
+}
+
+
+
+footer .right{
+    float: left;
+    margin-top: 10px;
+    width: 25%;
+}
+footer .right .lf{
+    float: left;
+    margin-right: 20px;
+}
+footer .right .lf img{
+    width: 100px;
+    border-radius: 10px;
+}
+footer .right .rt img{
+    margin-top: 20px;
+    width: 40px;
+}
+footer .right .rt p{
+    margin: 0;
+    font-size: 15px;
+    color: rgb(255, 132, 0);
+}
+footer .right .rt span{
+    color: #fff;
+    font-size: 15px;
+}
+footer .right> img{
+    margin-top: 10px;
+}
+
+/* footer-2 start from here */
+
+.footer {
+    background-color: #fff;
+    padding: 20px 0;
+}
+.footer .item{
+    width: 24%;
+    float: left;
+    display: inline-block;
+}
+.footer .item h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.footer .item p{
+    margin-top: 50px;
+}
+
+
+.footer .item i{
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px;
+    margin: 3px;
+    color: rgb(88, 4, 167);
+    border-radius: 50%;
+    border: 1px solid blue;
+}
+
+/* About section start from here */
+
+.about{
+    padding: 20px 0;
+    background-color: rgb(230, 230, 230);
+}
+.about .item{
+    width: 23%;
+    float: left;
+    margin: 0px 10px;
+    display: inline-block;
+}
+
+.about .item h2{
+    font-size: 18px;
+    color: rgb(94, 94, 94);
+}
+.about .item h3{
+    font-size: 14px;
+    color: rgb(94, 94, 94);
+}
+.about .item p{
+    font-size: 12px;
+    color: rgb(124, 124, 124);
+}
+.about .item a{
+    text-decoration: none;
+}
