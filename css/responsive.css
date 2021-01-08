@@ -1,0 +1,229 @@
+@media all and (max-width : 1310px){
+    .midl{
+        width: 95%;
+    }
+    .skill .left .poin{
+        width: 360px;
+       
+    }
+}
+@media all and (max-width : 1090px){
+    .shadow img{
+        position: absolute;
+        width: 300px;
+        left: 10%;
+        top: 80px;
+    }
+    .skill .mid{
+        width: 100%;
+        margin: auto;
+        padding: 30px;
+    }
+    .skill .right{
+        text-align: center;
+        width: 90%;
+        float: left;
+        overflow: hidden;
+        text-align: center;
+    }
+    .skill .left{
+ 
+        width: 55%;
+        float: none;
+        margin: auto;
+        overflow: hidden;
+    }
+    .skill .left .poin{
+        width:90%;
+    }
+}
+@media all and (max-width : 950px){
+    .shadow img{
+        position: absolute;
+        width: 230px;
+        left: 10%;
+        top: 150px;
+    }
+}
+@media all and (max-width : 882px){
+    .shadow .right p{
+        color: white;
+        width: 100%;
+        font-size: 12px;
+        margin: 0px 0px 30px;
+    }
+    .bottm .sec-2{
+        display: inline-block;
+        text-align: left;
+        width: 25%;
+        overflow: hidden;
+        background-color: #fff;
+        margin: 5px 10px;
+    
+    }
+
+    .video .right{
+        float: none;
+        overflow: hidden;
+        text-align: center;
+        margin: auto;
+    }
+    .video .left{
+        width: auto;
+        float: none;
+        overflow: hidden;
+        padding-bottom: 10px;
+    }
+    .video .left video{
+        width: 400px;
+        display: block;
+        margin: 0px auto;
+        float: none;
+        border-radius: 20px;
+    }
+    .video .right a{
+        margin: 10px auto;
+    }
+}
+
+@media all and (max-width : 750px){
+    .shadow img{
+        position: absolute;
+        width: 150px;
+        left: 10%;
+        top: 250px;
+    }
+    .contact p{
+        width: 90%;
+        margin: auto;
+        font-size: 13px;
+    }
+    .contact .input input{
+        display:block;
+        margin: 10px auto;
+
+    }
+
+    .contact .input textarea{
+        width: 90%;
+        display: block;
+        margin: 20px auto;
+      
+    }
+    .section p{
+        width: 140px;
+        font-size: 9px;
+        margin: auto;
+        
+    }
+    .blog .midel{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media all and (max-width : 560px){
+    .shadow .right ul li{
+        font-size: 9px;
+    }
+    .section img{
+        width: 60px;
+    }
+    .section h2{
+        font-size: 13px;
+    }
+ 
+}
+@media all and (max-width : 1050px){
+    .service .mdl{
+        width: 100%;
+    }
+   
+}
+@media all and (max-width : 900px){
+    .section{
+        width: 40%;
+        margin: 10px;
+    }
+    .molly{
+        overflow: hidden;
+        text-align: center;
+        background-color: rgb(66, 82, 99);
+        padding: 50px 0px 300px;
+        color: white;
+        background-size: 600px;
+        background-repeat: no-repeat;
+        background-position: center 120%;
+    }
+    
+@media all and (max-width : 600px){
+    .service p{
+        width: 100%;
+      
+    }
+    .banar article{
+        width: 100%;
+    }
+    .subs h1{
+        font-size: 16px;
+        color: white;
+    }
+}
+@media all and (max-width : 920px){
+    .banar .shadow{
+        padding: 100px 0px;
+    }
+    .video .right article{
+        width: 100%;
+        color: rgb(150, 150, 150);
+    }
+    
+}
+@media all and (max-width : 1000px){
+    .video .right article{
+        width: 100%;
+        color: rgb(150, 150, 150);
+    }
+    .in .right{
+        width: 100%;
+        float: none;
+        overflow: hidden;
+        margin: auto;
+    }
+    .in img{
+        width: 100%;
+        margin: 20px auto;
+        float: right;
+    }
+    .in .left{
+        width: 40%;
+        float: left;
+        overflow: hidden;
+        margin-right: 20px;
+    }
+    
+}
+@media all and (max-width : 650px){
+    .molly{
+        overflow: hidden;
+        text-align: center;
+        background-color: rgb(66, 82, 99);
+        padding: 50px 0px 300px;
+        color: white;
+        background-size: 400px;
+        background-repeat: no-repeat;
+        background-position: center 110%;
+    }
+}
+
+@media all and (max-width : 1150px){
+
+    .in img{
+        width: 200px;
+        margin-top: 30px;
+    }
+    .in .center{
+        width: 40%;
+        float: left;
+        overflow: hidden;
+    }
+}
