@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 200px;
+	background-color: rgb(6, 133, 6);
+	margin-left: 10px;
+	padding: 20px;
+	float: left;
+
+}
+.ami{
+	width: 150px;
+	height: 150px;
+	background-color: lightgrey;
+	border-radius: 50%;
+	margin: auto;
+}
+h2{
+	text-align: center;
+	font-family: tahoma;
+	color: white;
+}
+p{
+	text-align: center;
+	color: white;
+}
+.main{
+	margin-left: 20%;
+	margin-top: 20px;
+}
